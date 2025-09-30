@@ -172,16 +172,8 @@ rm -rf feeds/packages/lang/golang
 mv package/custom/golang feeds/packages/lang/
 ## argon 主题
 config_package_add luci-theme-argon
-## passwall
-config_package_add luci-app-passwall
-config_package_add luci-app-passwall_Nftables_Transparent_Proxy
-config_package_del luci-app-passwall_Iptables_Transparent_Proxy
-config_package_del luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client
-config_package_del luci-app-passwall_INCLUDE_Shadowsocks_Libev_Server
-config_package_del luci-app-passwall_INCLUDE_Shadowsocks_Rust_Client
-config_package_del luci-app-passwall_INCLUDE_Shadowsocks_Rust_Server
-config_package_del luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Client
-config_package_del luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Server
+## openclash
+config_package_add luci-app-openclash
 ## luci-app-easytier
 config_package_add luci-app-easytier
 config_package_add easytier
